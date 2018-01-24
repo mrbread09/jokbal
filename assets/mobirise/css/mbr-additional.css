@@ -573,34 +573,6 @@ a:hover {
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
-#scrollToTop a {
-  background: #444444;
-  opacity: .5;
-}
-#scrollToTop a:hover {
-  opacity: .7;
-}
-#scrollToTop a i:before {
-  content: '';
-  position: absolute;
-  height: 40%;
-  top: 25%;
-  background: #ffffff;
-  width: 2px;
-  left: calc(50% - 1px);
-}
-#scrollToTop a i:after {
-  content: '';
-  position: absolute;
-  display: block;
-  border-top: 2px solid #ffffff;
-  border-right: 2px solid #ffffff;
-  width: 40%;
-  height: 40%;
-  left: 30%;
-  bottom: 30%;
-  transform: rotate(135deg);
-}
 /* Others*/
 .note-check a[data-value=Rubik] {
   font-style: normal;
@@ -615,11 +587,6 @@ a:hover {
 }
 .mbr-arrow:hover {
   opacity: .7;
-}
-@media (max-width: 767px) {
-  .mbr-arrow {
-    display: none;
-  }
 }
 .form-control-label {
   position: relative;
@@ -775,6 +742,9 @@ html,
 body {
   height: auto;
   min-height: 100vh;
+}
+.scroll-background {
+  background-repeat: repeat-x !important;
 }
 .cid-qH8hNclci5 .navbar {
   min-height: 77px;
